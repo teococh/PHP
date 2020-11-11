@@ -9,3 +9,14 @@ function moda($numeros)
     arsort($numCont);
     return array_key_first($numCont);
 }
+
+// Media Parametro array de ints salida mediana;
+function media($numeros)
+{
+    if (sizeof($numeros) == 0) {
+        return 0;
+    }else {
+        return array_sum($numeros)/sizeof($numeros);    
+    }
+    
+}
