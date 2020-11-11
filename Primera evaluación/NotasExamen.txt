@@ -11,6 +11,7 @@ function moda($numeros)
 }
 
 // Media Parametro array de ints salida mediana;
+
 function media($numeros)
 {
     if (sizeof($numeros) == 0) {
