@@ -1,3 +1,11 @@
 
 https://cheatography.com/davechild/cheat-sheets/php/
 
+// Función para sacar moda; parámetro array salida int
+
+function moda($numeros)
+{
+    $numCont = array_count_values($numeros);
+    arsort($numCont);
+    return array_key_first($numCont);
+}
