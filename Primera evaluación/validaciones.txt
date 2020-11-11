@@ -1,0 +1,88 @@
+VALIDACIONES FORMULARIOS
+
+- Validar si esta llegando una petición por POST, lo que significa que el usuario envió el formulario.
+  if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+  
+- Validar si un campo viene vacio
+if(empty($_POST['nombre'])) {  
+
+- Validar si campo nombre es alfabético.Las letras se limitan a [A-Za-z] 
+ if (ctype_alpha($nombre)){
+ 
+ -  Validar si la variable esta en mayusculas
+ if (ctype_upper($caso_prueba)) {
+ 
+ - Validar si la variable esta en minusculas
+   if (ctype_lower($caso_prueba)) {
+   
+ - Validar posibles caracteres alfanuméricos
+  if (ctype_alnum($caso_prueba)) {
+  
+ - Validar posibles caracteres numéricos
+  if (ctype_digit($caso_prueba)) {
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ - Valor absoluto
+    abs(5);
+
+- Redondea hacia arriba
+    ceil(4.3);    // 5
+
+- De decimal a binario
+    decbin(12); // 1100
+
+- Decimal a hexadecimal
+    dechex(10) ; // a
+
+- Decimal a octal
+    decoct(15); // 17
+
+- Redondear fracciones hacia abajo
+    floor(4.3);   // 4
+
+- Redondear fracciones hacia arriba
+    ceil(4.3);    // 5
+
+- Redondea un float
+    echo round(9.5, 0, PHP_ROUND_HALF_UP);   // 10
+    echo round(9.5, 0, PHP_ROUND_HALF_DOWN); // 9
+    echo round(9.5, 0, PHP_ROUND_HALF_EVEN); // 10
+    echo round(9.5, 0, PHP_ROUND_HALF_ODD);  // 9
+
+    echo round(8.5, 0, PHP_ROUND_HALF_UP);   // 9
+    echo round(8.5, 0, PHP_ROUND_HALF_DOWN); // 8
+    echo round(8.5, 0, PHP_ROUND_HALF_EVEN); // 8
+    echo round(8.5, 0, PHP_ROUND_HALF_ODD);  // 9
+    
+  
+   
+
+  
+  
+ 
+ 
